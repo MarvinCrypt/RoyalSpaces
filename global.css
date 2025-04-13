@@ -1,0 +1,75 @@
+
+body {
+  	margin: 0;
+  	line-height: normal;
+}
+
+
+:root {
+  	
+  	/* Fonts */
+  	--Text-Regular-Normal: Roboto;
+  	--Heading-Desktop-H5: Urbanist;
+  	
+  	/* font sizes */
+  	--Text-Small-Semi-Bold-size: 14px;
+  	--Text-Regular-Normal-size: 16px;
+  	--Text-Medium-Normal-size: 18px;
+  	--font-size-xl: 20px;
+  	--Heading-Desktop-H5-size: 24px;
+  	--Heading-Desktop-H2-size: 48px;
+  	
+  	/* Colors */
+  	--color-darkslateblue-100: rgba(82, 84, 137, 0.44);
+  	--color-dimgray: #665e53;
+  	--color-gray-100: #261a06;
+  	
+  	/* Gaps */
+  	--gap-5xs: 8px;
+  	--gap-xs: 12px;
+  	--gap-base: 16px;
+  	--gap-5xl: 24px;
+  	--gap-13xl: 32px;
+  	--gap-21xl: 40px;
+  	--gap-61xl: 80px;
+  	
+  	/* Paddings */
+  	--padding-9xs: 4px;
+  	--padding-5xs: 8px;
+  	--padding-3xs: 10px;
+  	--padding-5xl: 24px;
+  	--padding-13xl: 32px;
+  	--padding-45xl: 64px;
+  	--padding-61xl: 80px;
+  	
+  	/* Border radiuses */
+  	--br-9xs: 4px;
+  	--br-7xs: 6px;
+  	--br-13xl: 32px;
+  	
+  	/* Figma Variables */
+  	
+  	/* Color Variables */
+  	--Color-East-Bay: #525489;
+  	--Color-East-Bay-Dark: #41436d;
+  	--Color-Neutral-Darkest: #000;
+  	--Color-Neutral-Lighter: #d8d8d8;
+  	--Color-Neutral-black: #000;
+  	--Color-Scheme-1-Background: #fff;
+  	--Color-Scheme-1-Border: rgba(0, 0, 0, 0.15);
+  	--Color-Scheme-1-Foreground: #f2f2f2;
+  	--Color-Scheme-1-Text: #000;
+  	--Color-White: #fff;
+  	--Opacity-Neutral-Darkest-15: rgba(0, 0, 0, 0.15);
+  	--Opacity-Neutral-Darkest-5: rgba(0, 0, 0, 0.05);
+  	--Opacity-White-10: rgba(255, 255, 255, 0.1);
+  	--Opacity-White-20: rgba(255, 255, 255, 0.2);
+  	--Opacity-White-60: rgba(255, 255, 255, 0.6);
+  	
+  	/* Number Variables */
+  	--Stroke-Border-Width: 1px;
+  	--Radius-Small: 24px;
+  	--Radius-Medium: 32px;
+  	--Radius-Large: 40px;
+  	
+}
