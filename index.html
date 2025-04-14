@@ -1,20 +1,583 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html>
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>React + TypeScript + Replit</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/index.tsx"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4/dist/tailwind.min.css" />
 
-    <!--
-    This script places a badge on your repl's full-browser view back to your repl's cover
-    page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
-    teal, blue, blurple, magenta, pink!
-    -->
-    <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
-  </body>
+	<title>RoyalSpaces</title>
+	<link rel="stylesheet" href="./global.css" />
+	<link rel="stylesheet"  href="./index.css" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;600&display=swap" />
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,500;0,600;0,700;1,500&display=swap" />
+	
+	
+  	
+</head>
+<body>
+  	
+  	<div class="home-page">
+    		<div class="home">
+      			<div class="header">
+        				<div class="navbar-2">
+          					<div class="container">
+            						<div class="content">
+              							<img class="company-logo-icon" alt="" src="images/Company Logo.png">
+              							
+            						</div>
+            						<div class="column">
+              							<div class="link">
+                								<div class="link-text">Home</div>
+              							</div>
+              							<div class="link">
+                								<div class="link-text">Services</div>
+              							</div>
+              							<div class="link">
+                								<div class="link-text">Listings</div>
+              							</div>
+              							<div class="link3">
+                								<div class="nav-link-dropdown">
+                  									<div class="link-text">Projects</div>
+                  									<img class="chevron-down-icon" alt="" src="images/Chevron Down.svg">
+                  									
+                								</div>
+                								<div class="menu">
+                  									<div class="quote">Blog</div>
+                  									<div class="quote">Contact Us</div>
+                  									<div class="quote">About Us</div>
+                								</div>
+              							</div>
+            						</div>
+            						<div class="actions">
+              							<div class="button" id="buttonContainer">
+                								<div class="link-text">Schedule Call</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="hero">
+        				<div class="header-76">
+          					<div class="container1">
+            						<div class="column1">
+              							<div class="content1">
+                								<div class="medium-length-hero-container">
+                  									<p class="building-your-dream">Building Your Dream Home in Kenya, </p>
+                  									<p class="wherever-you-are">
+                    										<i class="wherever-you-are1">Wherever You Are</i>
+                  									</p>
+                								</div>
+                								<div class="lorem-ipsum-dolor">Based in Nairobi, our skilled team transforms your vision into a stunning reality, blending your style with expert craftsmanship.</div>
+              							</div>
+              							<div class="actions1">
+                								<div class="button2" id="buttonContainer">
+                  									<div class="link-text">Send Message</div>
+                								</div>
+              							</div>
+            						</div>
+            						<div class="content2">
+              							<div class="column2">
+                								<img class="placeholder-image-icon" alt="" src="images/kitchen.png">
+                								
+                								<img class="placeholder-image-icon" alt="" src="images/b.png">
+                								
+                								<img class="placeholder-image-icon" alt="" src="images/b2.png">
+                								
+              							</div>
+              							<div class="column3">
+                								<img class="placeholder-image-icon" alt="" src="images/lviing.png">
+                								
+                								<img class="placeholder-image-icon" alt="" src="images/live.png">
+                								
+                								<img class="placeholder-image-icon" alt="" src="images/sink.png">
+                								
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="about-us">
+        				<div class="about-us1">
+          					<div class="container2">
+            						<img class="placeholder-image-icon6" alt="" src="images/parking.png">
+            						
+            						<div class="content3">
+              							<div class="tagline-wrapper">
+                								<div class="tagline">About Us</div>
+              							</div>
+              							<div class="content4">
+                								<div class="heading">Who We Are?</div>
+                								<div class="text">
+                  									<p class="royal-spaces-is">Royal Spaces is more than a real estate company. We’re a team of dream-builders. </p>
+                  									<p class="royal-spaces-is">From our base in Nairobi, we’ve spent years perfecting the art of creating homes that people love. </p>
+                  									<p class="royal-spaces-is">&nbsp;</p>
+                  									<p class="royal-spaces-is">We work with clients across Kenya and around the world, offering personalized services that make the process smooth and exciting.</p>
+                								</div>
+              							</div>
+              							<div class="content5">
+                								<div class="row">
+                  									<div class="stat">
+                    										<div class="text1">VISION</div>
+                    										<div class="content6">
+                      											<div class="divider">
+                      											</div>
+                      											<div class="quote">
+                        												<p class="royal-spaces-is">To transform communities with inspiring spaces. </p>
+                        												<p class="royal-spaces-is">We believe in the power of better homes to uplift and connect with life.</p>
+                      											</div>
+                    										</div>
+                  									</div>
+                  									<div class="stat1">
+                    										<div class="text1">MISSION</div>
+                    										<div class="content7">
+                      											<div class="divider">
+                      											</div>
+                      											<div class="quote">We make dream homes a reality. Every project is a chance to strengthen communities and exceed expectations.</div>
+                    										</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="services">
+        				<div class="layout-239">
+          					<div class="section-title">
+            						<div class="tagline-wrapper1">
+              							<div class="tagline1">Our Services</div>
+            						</div>
+            						<div class="content8">
+              							<div class="heading">
+                								<p class="royal-spaces-is">High-End Services for Your </p>
+                								<p class="royal-spaces-is">Real Estate Construction</p>
+              							</div>
+              							<div class="text5">We’re your all-in-one solution for standout homes. </div>
+            						</div>
+          					</div>
+          					<div class="content9">
+            						<div class="row1">
+              							<div class="column4">
+                								<img class="placeholder-image-icon7" alt="" src="images/project management.png">
+                								
+                								<div class="content10">
+                  									<div class="heading2">
+                    										<p class="royal-spaces-is">Real Estate Project </p>
+                    										<p class="royal-spaces-is">Management</p>
+                  									</div>
+                  									<div class="text6">Building a home can feel overwhelming, but we make it simple. Our project managers oversee every phase – from securing permits to coordinating contractors.</div>
+                								</div>
+              							</div>
+              							<div class="column4">
+                								<img class="placeholder-image-icon7" alt="" src="images/balow.png">
+                								
+                								<div class="content10">
+                  									<div class="heading2">
+                    										<p class="royal-spaces-is">Modern Architectural </p>
+                    										<p class="royal-spaces-is">Designing</p>
+                  									</div>
+                  									<div class="text6">Your home should reflect who you are, and our architects are here to make that happen. Practical and beautiful, blending cutting-edge trends with timeless appeal.</div>
+                								</div>
+              							</div>
+              							<div class="column4">
+                								<img class="placeholder-image-icon9" alt="" src="images/interior.png">
+                								
+                								<div class="content12">
+                  									<div class="heading2">
+                    										<p class="royal-spaces-is">Interior Design and House </p>
+                    										<p class="royal-spaces-is">Staging</p>
+                  									</div>
+                  									<div class="text6">Our interior designers craft spaces that are stylish, functional, and welcoming. Plus, if you’re showcasing your property, our staging services makes it irresistible.</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+          					<div class="actions2">
+            						<div class="button4">
+              							<div class="link-text">View All Services</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="listings-section">
+        				<div class="layout-195">
+          					<div class="container3">
+            						<img class="placeholder-image-icon6" alt="" src="images/listings.png">
+            						
+            						<div class="content13">
+              							<div class="content14">
+                								<div class="section-title1">
+                  									<div class="tagline-wrapper1">
+                    										<div class="link-text">Listings</div>
+                  									</div>
+                  									<div class="content15">
+                    										<div class="heading">Explore Our Available Properties Today</div>
+                    										<div class="text5">Finding a home you love is the first step to living your dream. At Royal Spaces, we offer a handpicked selection of properties across Kenya, designed to suit a variety of tastes and budgets.</div>
+                  									</div>
+                								</div>
+                								<div class="content16">
+                  									<div class="row2">
+                    										<div class="list-item">
+                      											<b class="heading6">Current Listings</b>
+                      											<div class="text6">Right now, we have 3 breathtaking apartment houses for rent in Nairobi. Perfect for families, professionals, or investors looking to settle in Kenya’s bustling capital.</div>
+                    										</div>
+                    										<div class="list-item">
+                      											<b class="heading6">Upcoming Listings</b>
+                      											<div class="text6">Exciting things are on the horizon! We’re preparing to launch a collection of residential apartments available for rent or pre-booking. Keep an eye out – your next home could be here soon!</div>
+                    										</div>
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="actions3">
+                								<div class="button4">
+                  									<div class="button7">
+                    										<div class="link-text">Explore Listings</div>
+                    										<img class="chevron-down-icon" alt="" src="components/Icon.svg">
+                    										
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="portfolio-section">
+        				<div class="portfolio-13">
+          					<div class="section-title2">
+            						<div class="tagline-wrapper1">
+              							<div class="tagline1">Our Portfolio</div>
+            						</div>
+            						<div class="content17">
+              							<div class="heading">
+                								<p class="royal-spaces-is">Showcasing Our Finest Work </p>
+                								<p class="royal-spaces-is">Across Kenya</p>
+              							</div>
+              							<div class="text">Our portfolio is a testament to our dedication, showcasing projects that blend innovation with comfort. Take a closer look at some of our recent favorites.</div>
+            						</div>
+          					</div>
+          					<div class="content18">
+            						<div class="portfolio-list">
+              							<div class="row3">
+                								<div class="card">
+                  									<img class="placeholder-image-icon11" alt="" src="images/beto.png">
+                  									
+                  									<div class="content19">
+                    										<div class="content-top">
+                      											<div class="text12">
+                        												<div class="heading9">Beto Homes</div>
+                        												<div class="text6">Residential project with modern amenities. It’s the perfect blend of luxury and practicality.</div>
+                      											</div>
+                      											<div class="tags">
+                        												<div class="tag">
+                          													<div class="tagline1">Residential Home</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Modern Living</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Affordable Housing</div>
+                        												</div>
+                      											</div>
+                    										</div>
+                    										<div class="actions4">
+                      											<div class="case-study-button">
+                        												<div class="link-text">View Project</div>
+                        												<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                        												
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+                								<div class="card1">
+                  									<img class="placeholder-image-icon11" alt="" src="images/live.png">
+                  									
+                  									<div class="content20">
+                    										<div class="section-title1">
+                      											<div class="text12">
+                        												<div class="heading9">Diani Cottages</div>
+                        												<div class="text6">Nestled near the sandy shores of Diani, these charming cottages are a haven for relaxation.</div>
+                      											</div>
+                      											<div class="tags1">
+                        												<div class="tag">
+                          													<div class="tagline1">Beachfront Living</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Family Friendly</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Spacious Design</div>
+                        												</div>
+                      											</div>
+                    										</div>
+                    										<div class="actions5">
+                      											<div class="case-study-button">
+                        												<div class="link-text">View Project</div>
+                        												<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                        												
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+                								<div class="card2">
+                  									<img class="placeholder-image-icon11" alt="" src="images/beto2.png">
+                  									
+                  									<div class="content20">
+                    										<div class="section-title1">
+                      											<div class="text12">
+                        												<div class="heading9">Githunguri Mansion</div>
+                        												<div class="text6">Tucked away in a peaceful corner of Kenya, this 3-bedroom mansion is all about modern simplicity.</div>
+                      											</div>
+                      											<div class="tags2">
+                        												<div class="tag">
+                          													<div class="tagline1">Modern Design</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Secure Living</div>
+                        												</div>
+                        												<div class="tag">
+                          													<div class="tagline1">Affordable Home</div>
+                        												</div>
+                      											</div>
+                    										</div>
+                    										<div class="actions5">
+                      											<div class="case-study-button">
+                        												<div class="link-text">View Project</div>
+                        												<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                        												
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+            						<div class="actions7">
+              							<div class="button15">
+                								<div class="link-text">View All Projects</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="testimonials">
+        				<div class="testimonial-23">
+          					<div class="section-title3">
+            						<div class="heading12">Customer Testimonials</div>
+            						<div class="text27">Our clients love what we do!</div>
+          					</div>
+          					<div class="content22">
+            						<div class="slider-arrow-left-parent">
+              							<div class="slider-arrow-left">
+                								<img class="chevron-down-icon" alt="" src="components/Slider Arrow left.svg">
+                								
+              							</div>
+              							<div class="column7">
+                								<div class="content23">
+                  									<div class="content24">
+                    										<div class="quote">"When we decided to build our family home, I was nervous about juggling contractors and timelines. Royal Spaces’ project management team took all that stress away!"</div>
+                    										<div class="avatar">
+                      											<img class="avatar-image-icon" alt="" src="images/customer profile.png">
+                      											
+                      											<div class="avatar-content">
+                        												<div class="quick-links">Jane Doe</div>
+                        												<div class="quote">Homeowner, Nairobi</div>
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+                								<div class="actions8">
+                  									<div class="case-study-button">
+                    										<div class="facebook">Read case study</div>
+                    										<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                    										
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="column7">
+                								<div class="content23">
+                  									<div class="content24">
+                    										<div class="quote">"My wife and I had a vague idea of what we wanted for our beachfront villa, but Royal Spaces’ architects turned it into something extraordinary!"</div>
+                    										<div class="avatar">
+                      											<img class="avatar-image-icon" alt="" src="images/customer profile.png">
+                      											
+                      											<div class="avatar-content">
+                        												<div class="quick-links">John Smith</div>
+                        												<div class="quote">Project Manager, XYZ Corp</div>
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+                								<div class="actions8">
+                  									<div class="case-study-button">
+                    										<div class="facebook">Read case study</div>
+                    										<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                    										
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="column7">
+                								<div class="content23">
+                  									<div class="content24">
+                    										<div class="quote">"Building our forever home with Royal Spaces was a journey we’ll never forget. Their project managers kept everything on track, even when unexpected challenges popped up."</div>
+                    										<div class="avatar">
+                      											<img class="avatar-image-icon" alt="" src="images/customer profile.png">
+                      											
+                      											<div class="avatar-content">
+                        												<div class="quick-links">Alice Johnson</div>
+                        												<div class="quote">Investor, Nairobi</div>
+                      											</div>
+                    										</div>
+                  									</div>
+                								</div>
+                								<div class="actions8">
+                  									<div class="case-study-button">
+                    										<div class="facebook">Read case study</div>
+                    										<img class="chevron-down-icon" alt="" src="components/chevron-right.svg">
+                    										
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="slider-arrow-left">
+                								<img class="chevron-down-icon" alt="" src="components/Slider Arrow Right.svg">
+                								
+              							</div>
+            						</div>
+            						<div class="slider-dots">
+              							<div class="dot">
+              							</div>
+              							<div class="dot1">
+              							</div>
+              							<div class="dot1">
+              							</div>
+              							<div class="dot1">
+              							</div>
+              							<div class="dot1">
+              							</div>
+              							<div class="dot1">
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="sign-up-cta-banner">
+        				<div class="cta-4">
+          					<div class="column10">
+            						<div class="content24">
+              							<div class="heading13">Explore Your Dream Home Today</div>
+              							<div class="text">Contact us now to schedule a visit or learn more about our available properties.</div>
+            						</div>
+            						<div class="actions11">
+              							<div class="form">
+                								<div class="text-input">
+                  									<div class="placeholder">Enter your email</div>
+                								</div>
+                								<div class="button22">
+                  									<div class="link-text">Sign Up</div>
+                								</div>
+              							</div>
+              							<div class="by-clicking-sign-container">By clicking Sign Up you're confirming that you agree with our
+                								<span class="terms-and-conditions">Terms and Conditions</span>.
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+      			<div class="footer">
+        				<div class="footer-1">
+          					<div class="content30">
+            						<div class="newsletter">
+              							<img class="company-logo-icon1" alt="" src="images/Company Logo- footer.png">
+              							
+              							<div class="company-description">Royal Spaces is a Nairobi-based real estate company that crafts inspiring homes and strengthens communities. Through personalized service, we help clients in Kenya and worldwide turn their dream homes into reality.</div>
+            						</div>
+            						<div class="links">
+              							<div class="column11">
+                								<div class="quick-links">Quick Links</div>
+                								<div class="footer-links">
+                  									<div class="link4">
+                    										<div class="placeholder">Home Page</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">Our Services</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">Contact Us</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">Blog Posts</div>
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="column11">
+                								<div class="quick-links">Connect With Us</div>
+                								<div class="footer-links">
+                  									<div class="link4">
+                    										<div class="placeholder">Careers Page</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">FAQs</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">Testimonials</div>
+                  									</div>
+                  									<div class="link4">
+                    										<div class="placeholder">Events Page</div>
+                  									</div>
+                								</div>
+              							</div>
+              							<div class="list-item">
+                								<div class="quick-links">Follow Us</div>
+                								<div class="footer-links">
+                  									<div class="link12">
+                    										<img class="chevron-down-icon" alt="" src="components/Facebook.svg">
+                    										
+                    										<div class="facebook">Facebook</div>
+                  									</div>
+                  									<div class="link12">
+                    										<img class="chevron-down-icon" alt="" src="components/Instagram.svg">
+                    										
+                    										<div class="facebook">Instagram</div>
+                  									</div>
+                  									<div class="link12">
+                    										<img class="chevron-down-icon" alt="" src="components/X.svg">
+                    										
+                    										<div class="facebook">X</div>
+                  									</div>
+                  									<div class="link12">
+                    										<img class="chevron-down-icon" alt="" src="components/YouTube.svg">
+                    										
+                    										<div class="facebook">YouTube</div>
+                  									</div>
+                								</div>
+              							</div>
+            						</div>
+          					</div>
+          					<div class="credits">
+            						<div class="divider2">
+            						</div>
+            						<div class="row4">
+              							<div class="facebook">© 2025 Royal Spaces. All rights reserved.</div>
+              							<div class="footer-links2">
+                								<div class="privacy-policy">Privacy Policy</div>
+                								<div class="privacy-policy">Terms of Use</div>
+              							</div>
+            						</div>
+          					</div>
+        				</div>
+      			</div>
+    		</div>
+  	</div>
+  	
+  	
+  	
+  	
+  	<script>
+    		var buttonContainer = document.getElementById("buttonContainer");
+    		if(buttonContainer) {
+      			buttonContainer.addEventListener("click", function () {
+        				window.location.href = "mailto:rachelngala75@gmail.com";
+      			});
+    		}</script>
+			
+	</body>
 </html>
